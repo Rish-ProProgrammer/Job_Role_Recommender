@@ -1,0 +1,10 @@
+os
+transformers
+whisper
+numpy
+import webbrowser
+math
+pandas
+string
+csv
+sys
