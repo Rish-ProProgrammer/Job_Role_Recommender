@@ -1,10 +1,6 @@
-os
 transformers
 whisper
-numpy
 webbrowser
-math
 pandas
-string
 csv
 sys
