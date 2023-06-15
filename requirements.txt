@@ -2,7 +2,7 @@ os
 transformers
 whisper
 numpy
-import webbrowser
+webbrowser
 math
 pandas
 string
