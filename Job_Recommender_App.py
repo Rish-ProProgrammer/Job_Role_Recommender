@@ -2,8 +2,6 @@ import pandas as pd
 import streamlit as st
 import appFunc as af
 import os
-import librosa
-import soundfile as sf
 import time
 progress_text = "Prediction in progress. Please wait..."
 icons = ['🔈', '🎥', '📕']
