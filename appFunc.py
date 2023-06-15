@@ -1,4 +1,3 @@
-from pytube import YouTube
 import torch
 import os
 from transformers import pipeline
