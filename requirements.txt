@@ -1,6 +1,3 @@
+streamlit
 transformers
 whisper
-webbrowser
-pandas
-csv
-sys
