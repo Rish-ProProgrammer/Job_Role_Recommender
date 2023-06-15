@@ -3,6 +3,7 @@ import streamlit as st
 import appFunc as af
 import os
 import time
+os.environ['PATH']=st.secrets['PATH']
 progress_text = "Prediction in progress. Please wait..."
 icons = ['🔈', '🎥', '📕']
 options = ['Upload Audio Recording','Upload Video Recording','Candidate Database']
