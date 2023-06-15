@@ -20,7 +20,6 @@ predLa=[]
 class Classifier:
   def __init__(self, pipeline):
     self.pipeline = pipeline
-
   def predict_proba(self, text):
     print('-')
     return np.array(classifier(text,departments)['scores'])
