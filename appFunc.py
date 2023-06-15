@@ -1,17 +1,14 @@
-import torch
 import os
 from transformers import pipeline
 import whisper
-import re
 import numpy as np
 import webbrowser
 import math
-model=whisper.load_model('small')
 import pandas as pd
 import string
 import csv
-from moviepy.editor import VideoFileClip
 import sys
+model=whisper.load_model('small')
 classifier = pipeline("zero-shot-classification",
                       model="facebook/bart-large-mnli")
 departmentId=0
